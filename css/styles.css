@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 156px;
+}
 body {
   margin: 16px;
   background-color: #ffffff;
@@ -13,8 +17,6 @@ body {
   gap: 24px;
   list-style: none;
   justify-content: center;
-  padding: 24px 156px;
-  margin: 0;
 }
 
 .gallery-item {
